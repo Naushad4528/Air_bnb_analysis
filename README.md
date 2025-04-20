@@ -1,21 +1,26 @@
 **Airbnb Data Cleaning and Analysis**
+
 **Project Overview**
+
 This project focuses on cleaning and analyzing an Airbnb dataset using Python. The dataset, sourced from Airbnb_Open_Data.csv, contains information about Airbnb listings, 
 including prices, room types, neighborhoods, and reviews. The project involves data cleaning steps to handle missing values, duplicates, and formatting issues, 
 followed by exploratory data analysis (EDA) with visualizations to uncover insights about listing distributions, pricing, and trends over time.
 
 **Repository Contents**
+
   > **Airbnb_Open_Data.csv**: The raw dataset containing Airbnb listing information.
   > **Air Bnb.ipynb**: Jupyter Notebook with the complete data cleaning and analysis workflow.
   > **cleaned_data.csv**: The cleaned dataset output after processing.
   > **README.md**: This file, providing an overview of the project.
 
 **Prerequisites**
+
 To run the Jupyter Notebook, ensure you have the following Python libraries installed:
 bash
 pip install pandas numpy matplotlib seaborn
 
 **Project Workflow**
+
 1-**Data Loading**:
     > The dataset is loaded using pandas from Airbnb_Open_Data.csv.
     > Initial exploration is performed using df.head() and df.info() to understand the structure and identify issues.
@@ -34,6 +39,7 @@ pip install pandas numpy matplotlib seaborn
     > The cleaned dataset is saved as cleaned_data.csv.
 
 **How to Run**
+
 1. Clone this repository:
    bash
    git clone https://github.com/your-username/airbnb-data-cleaning.git
@@ -54,6 +60,7 @@ pip install pandas numpy matplotlib seaborn
 6. Run the notebook cells to execute the data cleaning and analysis.
 
 **Visualizations**
+
 The notebook includes the following visualizations:
     > **Price Distribution**: Histogram of listing prices with a kernel density estimate (KDE).
     > **Room Type Distribution**: Count plot showing the prevalence of room types.
