@@ -26,16 +26,19 @@ pip install pandas numpy matplotlib seaborn
 **Project Workflow**
 
 1-**Data Loading**:
+
     > The dataset is loaded using pandas from Airbnb_Open_Data.csv.
     > Initial exploration is performed using df.head() and df.info() to understand the structure and identify issues.
     
 2-**Data Cleaning**:
+
     > **Handling Missing Values**: Missing values in reviews per month are filled with 0, and last review is set to the minimum date. Rows with missing NAME or host name are dropped.
     > **Dropping Column**s: Unnecessary columns (license, house_rules) are removed.
     > **Formatting**: price and service fee columns are cleaned by removing $ and , symbols and converted to float.
     >**Removing Duplicates**: Duplicate rows are dropped to ensure data integrity.
     
 3-**Exploratory Data Analysis (EDA)**:
+
     > **Price Distribution**: A histogram visualizes the distribution of listing prices.
     > **Room Type Distribution**: A count plot shows the frequency of different room types (e.g., Entire home/apt, Private room).
     > **Neighborhood Analysis**: A count plot displays the number of listings by neighborhood group.
@@ -43,6 +46,7 @@ pip install pandas numpy matplotlib seaborn
     > **Reviews Over Time**: A line plot tracks the number of reviews over time, aggregated by month.
     
 4-**Output**:
+
     > The cleaned dataset is saved as cleaned_data.csv.
 
 **How to Run**
@@ -69,6 +73,7 @@ pip install pandas numpy matplotlib seaborn
 **Visualizations**
 
 The notebook includes the following visualizations:
+
     > **Price Distribution**: Histogram of listing prices with a kernel density estimate (KDE).
     > **Room Type Distribution**: Count plot showing the prevalence of room types.
     > **Listings by Neighborhood**: Count plot of listings across neighborhood groups.
@@ -76,6 +81,7 @@ The notebook includes the following visualizations:
     > **Reviews Over Time**: Line plot of review counts by month.
     
 **Key Insights**
+
     > The dataset contains 101,410 unique listings after cleaning.
     > Most listings are Entire homes/apts (53,132) or Private rooms (45,967).
     > Prices range from $50 to $1,200, with a mean of approximately $625.
@@ -83,6 +89,7 @@ The notebook includes the following visualizations:
     > Review activity varies over time, as shown in the temporal analysis.
     
 **Future Improvements**
+
     > Handle remaining missing values in columns like host_identity or country.
     > Add more advanced visualizations, such as geographic maps using lat and long.
     > Perform statistical analysis to identify factors influencing pricing.
@@ -90,6 +97,7 @@ The notebook includes the following visualizations:
 
   
 **Dataset Source**
+
     > The dataset is assumed to be sourced from a public repository or Kaggle (e.g., Airbnb Open Data). Ensure proper attribution if required.
 
 **License**
