@@ -106,4 +106,4 @@ The notebook includes the following visualizations:
     > This project is licensed under the MIT License. See the  file for details.
 
 **Contact**
-    > For questions or suggestions, feel free to open an issue or contact your-naushadsaifi12345@gmail.com.
+    > For questions or suggestions, feel free to open an issue or contact your- naushadsaifi12345@gmail.com.
