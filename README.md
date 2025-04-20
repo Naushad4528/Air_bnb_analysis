@@ -32,7 +32,8 @@ pip install pandas numpy matplotlib seaborn
     
 2-**Data Cleaning**:
 
-    > **Handling Missing Values**: Missing values in reviews per month are filled with 0, and last review is set to the minimum date. Rows with missing NAME or host name are dropped.
+    > **Handling Missing Values**: Missing values in reviews per month are filled with 0, 
+      and last review is set to the minimum date. Rows with missing NAME or host name are dropped.
     > **Dropping Column**s: Unnecessary columns (license, house_rules) are removed.
     > **Formatting**: price and service fee columns are cleaned by removing $ and , symbols and converted to float.
     >**Removing Duplicates**: Duplicate rows are dropped to ensure data integrity.
@@ -98,7 +99,8 @@ The notebook includes the following visualizations:
   
 **Dataset Source**
 
-    > The dataset is assumed to be sourced from a public repository or Kaggle (e.g., Airbnb Open Data). Ensure proper attribution if required.
+    > The dataset is assumed to be sourced from a public repository or Kaggle (e.g., Airbnb Open Data).
+      Ensure proper attribution if required.
 
 **License**
     > This project is licensed under the MIT License. See the  file for details.
